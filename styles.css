@@ -1,1 +1,93 @@
 /* Write your CSS here! */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8FF;
+    
+}
+
+body {
+    margin: 8px;
+    display: block;
+    
+}
+
+p {
+    color: #0D98BA;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#mainHeading {
+    color: red;
+}
+
+#testP.funParagraph {
+    color: green;
+}
+
+.fimg {
+    width: 500px;
+    height: auto;
+    padding: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  #footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #footer .contact-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+  }
+
+  
+#footer a {
+    text-decoration: none;
+    color: #0D98BA;
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+
+  #footer .social-media {
+    background-color: #f0f0f0;
+
+  }
+
+  #footer .contact-info {
+    background-color: #f0f0f0;
+  }
+
+
+  ul {
+    list-style-type: disc; /* This sets the bullet style to be a filled circle */
+  }
+
+  li {
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  p.not-change {
+    color: inherit;
+  }
